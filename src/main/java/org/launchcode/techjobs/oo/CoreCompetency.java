@@ -1,9 +1,8 @@
-package org.launchcode.techjobs.oo;
+package org.launchcode.techjobs_oo;
 
 import java.util.Objects;
 
 public class CoreCompetency {
-
     private int id;
     private static int nextId = 1;
     private String value;
@@ -38,7 +37,10 @@ public class CoreCompetency {
         return Objects.hash(id);
     }
 
+    public String getValue() {
+        return value;
+    }
+
     // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
     //  ONLY a getter for the 'id' field.
-
 }
